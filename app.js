@@ -5,7 +5,7 @@ const path = require("path");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
-const dbPath = path.join(__dirname, "./covid19India.db");
+const dbPath = path.join(__dirname, "./covid19IndiaPortal.db");
 const app = express();
 app.use(express.json());
 let db = null;
